@@ -33,6 +33,9 @@ Everything needed to make your react application responsive
   * `col`: any fraction to represent the default column width, this is overriten by the media value specified at each breakpoint
   * `media`: object with the grid item rules for each of the breakpoint
 
+# Gotcha
+ * For the gutters to work properly, your application needs to be set to use `box-sizing: border-box;`
+ * https://css-tricks.com/box-sizing/
 
 # More Grid Examples:
 ````javascript
