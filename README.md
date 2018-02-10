@@ -1,6 +1,10 @@
 # styled-grid-responsive
 Everything needed to make your react application responsive
 
+# Installation:
+
+`npm install styled-grid-responsive`
+
 # Breakpoints:
  * `phone`
  * `tablet`
