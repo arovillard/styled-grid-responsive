@@ -1,3 +1,4 @@
-exports.printMsg = function() {
-  console.log("This is a message from the demo package");
-}
+import { Grid, GridItem } from './src/Grid'
+import { mediaQuery } from './src/mediaQuery'
+
+export {Grid, GridItem, mediaQuery }
