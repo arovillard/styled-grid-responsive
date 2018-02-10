@@ -1,0 +1,26 @@
+{
+  "name": "styled-responsive",
+  "version": "1.0.0",
+  "description": "Everything you need to make your react app responsive\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arovillard/styled-responsive.git"
+  },
+  "keywords": [
+    "react",
+    "styled-components",
+    "grid",
+    "responsive",
+    "media-query"
+  ],
+  "author": "Alejandro Rovillard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arovillard/styled-responsive/issues"
+  },
+  "homepage": "https://github.com/arovillard/styled-responsive#readme"
+}
