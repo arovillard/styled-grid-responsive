@@ -1,7 +1,13 @@
 # styled-grid-responsive
 Everything needed to make your react application responsive
 
-## grid usage:
+# Breakpoints:
+ * `phone`
+ * `tablet`
+ * `desktop`
+ * `large`
+
+# Grid usage:
 ````javascript
   import { Grid, GridItem } from 'styled-grid-responsive'
 
