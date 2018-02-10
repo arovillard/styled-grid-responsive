@@ -2,7 +2,7 @@
 Everything needed to make your react application responsive
 
 ## grid usage:
-```
+````javascript
   import { Grid, GridItem } from 'styled-grid-responsive'
 
   <Grid>
@@ -10,22 +10,22 @@ Everything needed to make your react application responsive
     <GridItem col={1/2}> <YourOtherComponent /> </GridItem>
   </Grid>
 
-```
+````
 # Grid Options:
-  * gutter: integer for the desired gutter value (default: 20)
-  * full: bool to have a gutterless grid
-  * middle: bool to vertically align the grid items middle (default: false, vertical-align: top)
-  * bottom: bool to vertically align the grid items bottom (default: false, vertical-align: top)
-  * center: bool to horizontally align the grid items center (default: false, text-align: center)
-  * rev: bool to reverse the order of the grid items (default: false)
+  * `gutter`: integer for the desired gutter value (default: 20)
+  * `full`: bool to have a gutterless grid
+  * `middle`: bool to vertically align the grid items middle (default: false, vertical-align: top)
+  * `bottom`: bool to vertically align the grid items bottom (default: false, vertical-align: top)
+  * `center`: bool to horizontally align the grid items center (default: false, text-align: center)
+  * `rev`: bool to reverse the order of the grid items (default: false)
 
 # GridItem Options:
-  * col: any fraction to represent the default column width, this is overriten by the media value specified at each breakpoint
-  * media: object with the grid item rules for each of the breakpoint
+  * `col`: any fraction to represent the default column width, this is overriten by the media value specified at each breakpoint
+  * `media`: object with the grid item rules for each of the breakpoint
 
 
 ## mediaQuery Usage:
-```
+````javascript
   import styled from 'styled-components'
   import { mediaQuery } from 'styled-grid-responsive'
 
@@ -42,11 +42,11 @@ Everything needed to make your react application responsive
     `}
   `
 
-```
+````
 
 
 Grid Examples:
-```
+````javascript
 <Grid gutter={50}>
   <GridItem media={{ phone: 1, tablet: 1 / 2 }} col={1 / 4}>
     <p>Item 1</p>
@@ -103,4 +103,4 @@ Grid Examples:
     <p>Item 4</p>
   </GridItem>
 </Grid>
-```
+````
