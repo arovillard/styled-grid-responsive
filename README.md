@@ -24,28 +24,7 @@ Everything needed to make your react application responsive
   * `media`: object with the grid item rules for each of the breakpoint
 
 
-## mediaQuery Usage:
-````javascript
-  import styled from 'styled-components'
-  import { mediaQuery } from 'styled-grid-responsive'
-
-  export const SuperComponent = styled.div`
-    background-color: yellow;
-    ${mediaQuery.desktop`
-      background-color: red;
-    `}
-    ${mediaQuery.tablet`
-      background-color: blue;
-    `}
-    ${mediaQuery.phone`
-      background-color: green;
-    `}
-  `
-
-````
-
-
-Grid Examples:
+# More Grid Examples:
 ````javascript
 <Grid gutter={50}>
   <GridItem media={{ phone: 1, tablet: 1 / 2 }} col={1 / 4}>
@@ -103,4 +82,24 @@ Grid Examples:
     <p>Item 4</p>
   </GridItem>
 </Grid>
+````
+
+## mediaQuery Usage:
+````javascript
+  import styled from 'styled-components'
+  import { mediaQuery } from 'styled-grid-responsive'
+
+  export const SuperComponent = styled.div`
+    background-color: yellow;
+    ${mediaQuery.desktop`
+      background-color: red;
+    `}
+    ${mediaQuery.tablet`
+      background-color: blue;
+    `}
+    ${mediaQuery.phone`
+      background-color: green;
+    `}
+  `
+
 ````
