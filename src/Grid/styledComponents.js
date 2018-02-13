@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import mediaQuery from '../mediaQuery'
 
 const defaultGutter = 20
+const defaultFontSize = 16
 
 const getGridHorizontalRules = ({ center }) => center && ' text-align: center;'
 
@@ -65,7 +66,7 @@ const getGridItemWidthRules = ({ col }) => {
 export const Grid = styled.div`
   font-size: 0;
   > * {
-    font-size: 16px;
+    font-size: ${defaultFontSize}px;
     display: inline-block;
     vertical-align: top;
     width: 100%;

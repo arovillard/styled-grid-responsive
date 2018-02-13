@@ -1,5 +1,7 @@
 # styled-grid-responsive
-Everything needed to make your Styled Component React Application responsive
+Everything needed to make your Styled Components React Application responsive.
+The first utility is a helper to be used inside your styled components to write media query calls.
+The second tool is a responsive, fluid, deeply nestable, (non-flexbox) grid system component.
 
 # Installation:
 `npm install styled-grid-responsive`
@@ -29,7 +31,7 @@ Everything needed to make your Styled Component React Application responsive
   * `rev`: bool to reverse the order of the grid items (default: false)
 
 # GridItem Options:
-  * `col`: any fraction to represent the default column width, this is overriten by the media value specified at each breakpoint
+  * `col`: any fraction to represent the default column width, this is overridden by the media value specified at each breakpoint
   * `media`: object with the grid item rules for each of the breakpoint
 
 # Gotcha
@@ -97,6 +99,8 @@ Everything needed to make your Styled Component React Application responsive
 ````
 
 ## mediaQuery Usage:
+The order in which we declare these matter since they share a starting and ending point,
+the best practice would be to declare the media queries in descending order (unless that's not the desired behaviour)
 ````javascript
   import styled from 'styled-components'
   import { mediaQuery } from 'styled-grid-responsive'
@@ -115,3 +119,6 @@ Everything needed to make your Styled Component React Application responsive
   `
 
 ````
+
+## Todo:
+Figure out the best patters so the end user can pass an object with the breakpoints definition instead of having to use the pre-defined ones.
