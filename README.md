@@ -1,5 +1,5 @@
 # styled-grid-responsive
-Everything needed to make your Styled Components React Application responsive.
+Everything needed to make your `styled-components` 💅 React Application responsive.
 The first utility is a helper to be used inside your styled components to write media query calls.
 The second tool is a responsive, fluid, deeply nestable, (non-flexbox) grid system component.
 
@@ -7,10 +7,62 @@ The second tool is a responsive, fluid, deeply nestable, (non-flexbox) grid syst
 `npm install styled-grid-responsive`
 
 # Breakpoints:
- * `phone`
- * `tablet`
- * `desktop`
- * `large`
+you can use the default breakpoints or set your own through the theme provider.
+If using your own custom breakpoints, these will be available when using mediaQuery.
+
+Default breakpoints:
+
+ ````
+ defaultDevices: {
+   phone: {
+     max: 768
+   },
+   tablet: {
+     min: 768,
+     max: 1160
+   },
+   desktop: {
+     min: 1160,
+     max: 1400
+   },
+   large: {
+     min: 1400
+   }
+ }
+ ````
+
+Setting you own breakpoints:
+
+````
+import React from 'react';
+import {ThemeProvider} from 'styled-components';
+const theme = {
+  breakpoints: {
+    smallPhone: {
+      max: 576
+    },
+    mediumPhone: {
+      min: 576,
+      max: 768
+    },
+    tablet: {
+      min: 768,
+      max: 992
+    },
+    desktop: {
+      min: 992,
+      max: 1200
+    },
+    reallyLarge: {
+      min: 1200,
+    }
+  }
+};
+
+<ThemeProvider theme={theme}>
+  <Heading>Hello World!</Heading>
+</ThemeProvider>
+````
 
 # Grid usage:
 ````javascript
