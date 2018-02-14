@@ -46,7 +46,7 @@ const getDirectionRules = ({ rev }) =>
 
 const getGridItemMediaRules = ({ media }) => {
   const rules = []
-  Object.keys(media).forEach(function(breakpoint) {
+  media && Object.keys(media).forEach(function(breakpoint) {
     const columns = media[breakpoint]
     const percent = columns * 100
     rules.push(
