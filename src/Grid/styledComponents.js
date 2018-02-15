@@ -1,4 +1,4 @@
-import styled, { withTheme } from 'styled-components'
+import styled from 'styled-components'
 import mediaQuery from '../mediaQuery'
 
 const defaultGutter = 20
