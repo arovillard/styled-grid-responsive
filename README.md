@@ -7,12 +7,9 @@ The second tool is a responsive, fluid, deeply nestable, (non-flexbox) grid syst
 `npm install styled-grid-responsive`
 
 # Breakpoints:
-you can use the default breakpoints or set your own through the theme provider.
-If using your own custom breakpoints, these will be available when using mediaQuery.
+These are the predefined breakpoints:
 
-Default breakpoints:
-
- ````
+````
  defaultDevices: {
    phone: {
      max: 768
@@ -29,39 +26,6 @@ Default breakpoints:
      min: 1400
    }
  }
- ````
-
-Setting you own breakpoints:
-
-````
-import React from 'react';
-import {ThemeProvider} from 'styled-components';
-const theme = {
-  breakpoints: {
-    smallPhone: {
-      max: 576
-    },
-    mediumPhone: {
-      min: 576,
-      max: 768
-    },
-    tablet: {
-      min: 768,
-      max: 992
-    },
-    desktop: {
-      min: 992,
-      max: 1200
-    },
-    reallyLarge: {
-      min: 1200,
-    }
-  }
-};
-
-<ThemeProvider theme={theme}>
-  <Heading>Hello World!</Heading>
-</ThemeProvider>
 ````
 
 # Grid usage:
