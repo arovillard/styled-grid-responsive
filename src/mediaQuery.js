@@ -27,7 +27,7 @@ const defaultBreakpoints = {
 // iterate through the sizes and create a media template
 const mediaQuery = (userBreakpoints) => {
   const availableBreakpoints = userBreakpoints || defaultBreakpoints
-  Object.keys(availableBreakpoints).reduce((accumulator, obj) => {
+  const acumulatedMedia = Object.keys(availableBreakpoints).reduce((accumulator, obj) => {
     // use em in breakpoints to work properly cross-browser and support users
     // changing their browsers font-size: https://zellwk.com/blog/media-query-units/
     const emSizeMin = availableBreakpoints[obj].min / 16
@@ -55,6 +55,7 @@ const mediaQuery = (userBreakpoints) => {
     }
     return accumulator
   }, {})
+  return acumulatedMedia
 }
 
 export default mediaQuery
