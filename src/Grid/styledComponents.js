@@ -44,13 +44,13 @@ const getDirectionRules = ({ rev }) =>
     }
   `
 
-const getGridItemMediaRules = ({ media, theme }) => {
+const getGridItemMediaRules = ({ media }) => {
   const rules = []
   media && Object.keys(media).forEach(function(breakpoint) {
     const columns = media[breakpoint]
     const percent = columns * 100
     rules.push(
-      mediaQuery(theme.breakpoints)[breakpoint]`
+      mediaQuery[breakpoint]`
       width: ${percent}%;
     `.join('')
     )

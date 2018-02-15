@@ -6,7 +6,7 @@ import { css } from 'styled-components'
 // max, then the media query rule will be 'max-width'. If both are defined,
 // then the media query rule will be 'max-width and min-width'.
 
-const defaultBreakpoints = {
+const defaultDevices = {
   phone: {
     max: 768
   },
@@ -23,39 +23,34 @@ const defaultBreakpoints = {
   }
 }
 
-
 // iterate through the sizes and create a media template
-const mediaQuery = (userBreakpoints) => {
-  const availableBreakpoints = userBreakpoints || defaultBreakpoints
-  const acumulatedMedia = Object.keys(availableBreakpoints).reduce((accumulator, obj) => {
-    // use em in breakpoints to work properly cross-browser and support users
-    // changing their browsers font-size: https://zellwk.com/blog/media-query-units/
-    const emSizeMin = availableBreakpoints[obj].min / 16
-    const emSizeMax = availableBreakpoints[obj].max / 16
-    accumulator[obj] = (...args) => {
-      if (emSizeMin && emSizeMax) {
-        return css`
-          @media (max-width: ${emSizeMax}em) and (min-width: ${emSizeMin}em) {
-            ${css(...args)};
-          }
-        `
-      } else if (!emSizeMin && emSizeMax) {
-        return css`
-          @media (max-width: ${emSizeMax}em) {
-            ${css(...args)};
-          }
-        `
-      } else if (emSizeMin && !emSizeMax) {
-        return css`
-          @media (min-width: ${emSizeMin}em) {
-            ${css(...args)};
-          }
-        `
-      }
+const mediaQuery = Object.keys(defaultDevices).reduce((accumulator, obj) => {
+  // use em in breakpoints to work properly cross-browser and support users
+  // changing their browsers font-size: https://zellwk.com/blog/media-query-units/
+  const emSizeMin = defaultDevices[obj].min / 16
+  const emSizeMax = defaultDevices[obj].max / 16
+  accumulator[obj] = (...args) => {
+    if (emSizeMin && emSizeMax) {
+      return css`
+        @media (max-width: ${emSizeMax}em) and (min-width: ${emSizeMin}em) {
+          ${css(...args)};
+        }
+      `
+    } else if (!emSizeMin && emSizeMax) {
+      return css`
+        @media (max-width: ${emSizeMax}em) {
+          ${css(...args)};
+        }
+      `
+    } else if (emSizeMin && !emSizeMax) {
+      return css`
+        @media (min-width: ${emSizeMin}em) {
+          ${css(...args)};
+        }
+      `
     }
-    return accumulator
-  }, {})
-  return acumulatedMedia
-}
+  }
+  return accumulator
+}, {})
 
 export default mediaQuery
