@@ -16,21 +16,21 @@ const getGridVerticalRules = ({ middle, bottom }) => {
 
 const getGridGutterRules = ({ gutter, full }) => {
   const value = gutter ? gutter : defaultGutter
-  if (gutter) {
-    return `
-  margin-left: ${value * -1}px;
-    > * {
-      padding-left: ${value}px;
-    }
-  `
-  } else if (full) {
+  if (full) {
     return `
     margin-left: 0px;
     > * {
       padding-left: 0px;
     }
   `
-  } else return
+  } else {
+    return `
+    margin-left: ${value * -1}px;
+    > * {
+      padding-left: ${value}px;
+    }
+  `
+  }
 }
 
 const getDirectionRules = ({ rev }) =>
