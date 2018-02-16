@@ -33,10 +33,10 @@ Default breakpoints:
 # Setting you own breakpoints:
 
 ````javascript
-  import React from 'react';
-  import { ThemeProvider } from 'styled-components';
+  import React from 'react'
+  import { ThemeProvider } from 'styled-components'
 
-  const breakpoints = {
+  export const breakpoints = {
     smallPhone: {
       max: 576
     },
@@ -59,7 +59,7 @@ Default breakpoints:
 
   const theme = {
     breakpoint
-  };
+  }
 
   <ThemeProvider theme={theme}>
     <Heading>Hello World!</Heading>
