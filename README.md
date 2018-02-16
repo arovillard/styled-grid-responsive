@@ -118,7 +118,7 @@ the best practice would be to declare the media queries in descending order (unl
 
  ---------------------------------
 
- <!-- on your styled components definitions -->
+ // on your styled components definitions
   import styled from 'styled-components'
   import { media } from '../path-to-where-defined'
 
