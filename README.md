@@ -58,7 +58,7 @@ Default breakpoints:
   }
 
   const theme = {
-    breakpoint
+    breakpoints
   }
 
   <ThemeProvider theme={theme}>
