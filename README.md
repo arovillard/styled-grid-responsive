@@ -58,7 +58,7 @@ Default breakpoints:
   }
 
   const theme = {
-    breakpoint
+    breakpoints
   }
 
   <ThemeProvider theme={theme}>
@@ -103,22 +103,22 @@ The order in which we declare these matter since they share a starting and endin
 the best practice would be to declare the media queries in descending order (unless that's not the desired behaviour)
 
 ````javascript
-  <!-- set up your media definition to be used in your styled components -->
+  // If using the default breakpoints:
   import { mediaQuery } from 'styled-grid-responsive'
-  // if using the default built in breakpoints
+  
   export const media = mediaQuery()
 
-  // or if using your own breakpoints
+
+  // If using the default breakpoints:
 
   import { mediaQuery } from 'styled-grid-responsive'
   import breakpoints from '../path-to-where-defined'
 
-  // if using your own custom breakpoints
   export const media = mediaQuery(breakpoints)
 
  ---------------------------------
 
- <!-- on your styled components definitions -->
+ // on your styled components definitions
   import styled from 'styled-components'
   import { media } from '../path-to-where-defined'
 
