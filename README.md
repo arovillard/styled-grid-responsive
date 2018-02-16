@@ -7,25 +7,63 @@ The second tool is a responsive, fluid, deeply nestable, (non-flexbox) grid syst
 `npm install styled-grid-responsive`
 
 # Breakpoints:
-These are the predefined breakpoints:
+you can use the default breakpoints or set your own through the theme provider.
 
-````
- defaultDevices: {
-   phone: {
-     max: 768
-   },
-   tablet: {
-     min: 768,
-     max: 1160
-   },
-   desktop: {
-     min: 1160,
-     max: 1400
-   },
-   large: {
-     min: 1400
+Default breakpoints:
+
+ ````javascript
+   defaultDevices: {
+     phone: {
+       max: 768
+     },
+     tablet: {
+       min: 768,
+       max: 1160
+     },
+     desktop: {
+       min: 1160,
+       max: 1400
+     },
+     large: {
+       min: 1400
+     }
    }
- }
+ ````
+
+# Setting you own breakpoints:
+
+````javascript
+  import React from 'react'
+  import { ThemeProvider } from 'styled-components'
+
+  export const breakpoints = {
+    smallPhone: {
+      max: 576
+    },
+    mediumPhone: {
+      min: 576,
+      max: 768
+    },
+    tablet: {
+      min: 768,
+      max: 992
+    },
+    desktop: {
+      min: 992,
+      max: 1200
+    },
+    reallyLarge: {
+      min: 1200,
+    }
+  }
+
+  const theme = {
+    breakpoint
+  }
+
+  <ThemeProvider theme={theme}>
+    <Heading>Hello World!</Heading>
+  </ThemeProvider>
 ````
 
 # Grid usage:
@@ -53,6 +91,54 @@ These are the predefined breakpoints:
 # Gotcha
  * For the gutters to work properly, your application needs to be set to use `box-sizing: border-box;`
  * https://css-tricks.com/box-sizing/
+
+ ````css
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+````
+
+# mediaQuery Usage:
+The order in which we declare these matter since they share a starting and ending point,
+the best practice would be to declare the media queries in descending order (unless that's not the desired behaviour)
+
+````javascript
+  <!-- set up your media definition to be used in your styled components -->
+  import { mediaQuery } from 'styled-grid-responsive'
+  // if using the default built in breakpoints
+  export const media = mediaQuery()
+
+  // or if using your own breakpoints
+
+  import { mediaQuery } from 'styled-grid-responsive'
+  import breakpoints from '../path-to-where-defined'
+
+  // if using your own custom breakpoints
+  export const media = mediaQuery(breakpoints)
+
+ ---------------------------------
+
+ <!-- on your styled components definitions -->
+  import styled from 'styled-components'
+  import { media } from '../path-to-where-defined'
+
+  // this example assumes you are not defining your own breakpoints, if you are,
+  // you would do media.nameOfYourBreakpoint
+
+  export const SuperComponent = styled.div`
+    background-color: yellow;
+    ${media.desktop`
+      background-color: red;
+    `}
+    ${media.tablet`
+      background-color: blue;
+    `}
+    ${media.phone`
+      background-color: green;
+    `}
+  `
+
+````
 
 # More Grid Examples:
 ````javascript
@@ -113,28 +199,3 @@ These are the predefined breakpoints:
     </GridItem>
   </Grid>
 ````
-
-## mediaQuery Usage:
-The order in which we declare these matter since they share a starting and ending point,
-the best practice would be to declare the media queries in descending order (unless that's not the desired behaviour)
-````javascript
-  import styled from 'styled-components'
-  import { mediaQuery } from 'styled-grid-responsive'
-
-  export const SuperComponent = styled.div`
-    background-color: yellow;
-    ${mediaQuery.desktop`
-      background-color: red;
-    `}
-    ${mediaQuery.tablet`
-      background-color: blue;
-    `}
-    ${mediaQuery.phone`
-      background-color: green;
-    `}
-  `
-
-````
-
-## Todo:
-Figure out the best patters so the end user can pass an object with the breakpoints definition instead of having to use the pre-defined ones.
