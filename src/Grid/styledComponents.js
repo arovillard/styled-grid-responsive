@@ -46,14 +46,17 @@ const getDirectionRules = ({ rev }) =>
 
 const getGridItemMediaRules = ({ media, theme }) => {
   const rules = []
+  const mq = mediaQuery(theme.breakpoints)
   media && Object.keys(media).forEach(function(breakpoint) {
-    const columns = media[breakpoint]
-    const percent = columns * 100
-    rules.push(
-      mediaQuery(theme.breakpoints)[breakpoint]`
-      width: ${percent}%;
-    `.join('')
-    )
+    if(mq[breakpoint]) {
+      const columns = media[breakpoint]
+      const percent = columns * 100
+      rules.push(mq[breakpoint]`
+        width: ${percent}%;
+      `.join(''))
+    } else {
+      console.log(`breakpoint "${breakpoint}" doesn't exist or it hasn't been defined on your theme`)
+    }
   })
   return rules.join(' ')
 }
