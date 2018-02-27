@@ -33,7 +33,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "styled-components": "^2.4.0",
-    "styled-media-responsive": "^1.0.5"
+    "styled-media-responsive": "^1.0.9"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
