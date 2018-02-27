@@ -1568,9 +1568,9 @@ styled-components@^2.4.0:
     stylis "^3.4.0"
     supports-color "^3.2.3"
 
-styled-media-responsive@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/styled-media-responsive/-/styled-media-responsive-1.0.3.tgz#76284597ed7268d4657adca2181cc66432d99368"
+styled-media-responsive@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/styled-media-responsive/-/styled-media-responsive-1.0.4.tgz#e9d41c6a8dc0f1f22e5e15e982cd3efb1273aaaf"
   dependencies:
     react "^16.2.0"
     styled-components "^2.4.0"
