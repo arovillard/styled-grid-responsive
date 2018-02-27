@@ -1,6 +1,6 @@
 {
   "name": "styled-grid-responsive",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Everything you need to make your styled component react app responsive",
   "main": "lib/index.js",
   "scripts": {
