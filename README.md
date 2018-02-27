@@ -1,7 +1,6 @@
 # styled-grid-responsive
-Everything needed to make your `styled-components` 💅 React Application responsive.
-The first utility is a helper to be used inside your styled components to write media query calls.
-The second tool is a responsive, fluid, deeply nestable, (non-flexbox) grid system component.
+A responsive, fluid, deeply nestable, non-flexbox grid system built with `styled-components` 💅.
+On version 2 the `mediaQuery` utility was removed and made into it's own package, you can find it [here](https://www.npmjs.com/package/styled-media-responsive)
 
 # Installation:
 `npm install styled-grid-responsive`
@@ -96,48 +95,6 @@ Default breakpoints:
   *, *:before, *:after {
     box-sizing: border-box;
   }
-````
-
-# mediaQuery Usage:
-The order in which we declare these matter since they share a starting and ending point,
-the best practice would be to declare the media queries in descending order (unless that's not the desired behaviour)
-
-````javascript
-  // If using the default breakpoints:
-  import { mediaQuery } from 'styled-grid-responsive'
-  
-  export const media = mediaQuery()
-
-
-  // If using your own breakpoints:
-
-  import { mediaQuery } from 'styled-grid-responsive'
-  import breakpoints from '../path-to-where-defined'
-
-  export const media = mediaQuery(breakpoints)
-
- ---------------------------------
-
- // on your styled components definitions
-  import styled from 'styled-components'
-  import { media } from '../path-to-where-defined'
-
-  // this example assumes you are not defining your own breakpoints, if you are,
-  // you would do media.nameOfYourBreakpoint
-
-  export const SuperComponent = styled.div`
-    background-color: yellow;
-    ${media.desktop`
-      background-color: red;
-    `}
-    ${media.tablet`
-      background-color: blue;
-    `}
-    ${media.phone`
-      background-color: green;
-    `}
-  `
-
 ````
 
 # More Grid Examples:
