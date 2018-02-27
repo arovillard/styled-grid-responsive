@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import mediaQuery from '../mediaQuery'
+import mediaQuery from 'styled-media-responsive'
 
 const defaultGutter = 20
 const defaultFontSize = 16
