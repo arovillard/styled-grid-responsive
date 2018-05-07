@@ -1,4 +1,0 @@
-0000000000000000000000000000000000000000 aeea205daaeff5de4eda8a8d849a35bcb679dc9b arovillard <arovillard@gmail.com> 1518630796 -0500	branch: Created from HEAD
-aeea205daaeff5de4eda8a8d849a35bcb679dc9b 0cb6d7e45db30d67c54dac3fee9a86678b493518 arovillard <arovillard@gmail.com> 1518634346 -0500	commit: wip
-0cb6d7e45db30d67c54dac3fee9a86678b493518 b2c2f7a08ba74a378561d1e815a7bbbb9ec0907d arovillard <arovillard@gmail.com> 1518658047 -0500	commit: use theme provider for breakpoints
-b2c2f7a08ba74a378561d1e815a7bbbb9ec0907d edf2a2cd5325e27d0c9511499c839ba441baeae1 arovillard <arovillard@gmail.com> 1518658227 -0500	commit: remove unused statement
