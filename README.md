@@ -156,3 +156,9 @@ Default breakpoints:
     </GridItem>
   </Grid>
 ````
+# Testing locally:
+To test it locally:
+1)`Clone this repo and cd into it`
+2)`npm install`
+3) `npm start`
+4) to run tests `npm test`
