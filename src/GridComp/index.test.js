@@ -53,7 +53,6 @@ describe('Grid system', () => {
       </Grid>
     )
     let wrapper = renderer.create(component).toJSON()
-    expect(wrapper).toMatchSnapshot()
     expect(wrapper.children[0]).toHaveStyleRule('width', '100%', {
       media: '(max-width:48em)'
     })
