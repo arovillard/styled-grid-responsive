@@ -4,8 +4,11 @@
   "description": "Everything you need to make your styled component react app responsive",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm test",
-    "prepublish": "babel src --presets babel-preset-es2015 --out-dir lib"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepublish": "babel src/GridComp --presets babel-preset-es2015 --out-dir lib"
   },
   "babel": {
     "presets": [
@@ -29,10 +32,11 @@
   "bugs": {
     "url": "https://github.com/arovillard/styled-grid-responsive/issues"
   },
-  "homepage": "https://github.com/arovillard/styled-grid-responsive#readme",
   "dependencies": {
-    "react": "^16.2.0",
-    "styled-components": "^2.4.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.2.6",
     "styled-media-responsive": "^1.0.9"
   },
   "devDependencies": {
