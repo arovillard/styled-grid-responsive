@@ -1,6 +1,6 @@
 # styled-grid-responsive
 A responsive, fluid, deeply nestable, non-flexbox grid system built with `styled-components` 💅.
-On version 2 the `mediaQuery` utility was removed and made into it's own package, you can find it [here](https://www.npmjs.com/package/styled-media-responsive)
+On version 2, the `mediaQuery` utility was removed and made into it's own package, you can find it [here](https://www.npmjs.com/package/styled-media-responsive)
 
 # Installation:
 `npm install styled-grid-responsive`

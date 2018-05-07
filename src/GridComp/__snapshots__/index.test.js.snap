@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid system basic usecase with "col" and gutter 1`] = `
+.c0 {
+  font-size: 0;
+  margin-left: -50px;
+}
+
+.c0 > * {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c0 > * {
+  padding-left: 50px;
+}
+
+.c1 {
+  width: 50%;
+}
+
+.c2 {
+  width: 25%;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    Half
+  </div>
+  <div
+    className="c2"
+  >
+    Quarter
+  </div>
+  <div
+    className="c2"
+  >
+    Quarter
+  </div>
+</div>
+`;
+
+exports[`Grid system media query 100% at phone  1`] = `
+.c0 {
+  font-size: 0;
+  margin-left: -20px;
+}
+
+.c0 > * {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c0 > * {
+  padding-left: 20px;
+}
+
+.c1 {
+  width: 50%;
+}
+
+@media (max-width:48em) {
+  .c1 {
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    media={
+      Object {
+        "phone": 1,
+      }
+    }
+  >
+    Half
+  </div>
+</div>
+`;
