@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer'
 import 'jest-styled-components'
 import styled from 'styled-components'
 import { css } from 'styled-components';
-import { Grid, GridItem } from './';
+import { Grid, GridItem } from '../GridComp';
 
 describe('Grid system', () => {
   test('basic usecase with "col" and gutter', () => {
