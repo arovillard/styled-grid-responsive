@@ -1,0 +1,3 @@
+[options]
+	no-commit = true
+	edit = true

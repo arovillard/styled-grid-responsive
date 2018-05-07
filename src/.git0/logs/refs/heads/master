@@ -1,0 +1,62 @@
+0000000000000000000000000000000000000000 c32e7115834ea386d4d3ed3e872df3034e4d3050 arovillard <arovillard@gmail.com> 1518290119 -0500	commit (initial): initial commit
+c32e7115834ea386d4d3ed3e872df3034e4d3050 f96a8723482f2aded37e297928a02ac3f813d19d arovillard <arovillard@gmail.com> 1518290524 -0500	commit: rename
+f96a8723482f2aded37e297928a02ac3f813d19d 5b2dd086fae9581a542b55b82a822daf3563af17 arovillard <arovillard@gmail.com> 1518292505 -0500	commit: add git ignore and readme file
+5b2dd086fae9581a542b55b82a822daf3563af17 214a1c5eee629c413a8bae3d5d91f8eecd123fc8 arovillard <arovillard@gmail.com> 1518292705 -0500	pull: Fast-forward
+214a1c5eee629c413a8bae3d5d91f8eecd123fc8 f9efd16fba645cf8624cb3659e84eeae2638075d arovillard <arovillard@gmail.com> 1518294318 -0500	commit: update readme with basic description
+f9efd16fba645cf8624cb3659e84eeae2638075d 130b0a973d8e11e0586e5909a6a5f9a8e488dbde arovillard <arovillard@gmail.com> 1518294455 -0500	commit: update readme with markup
+130b0a973d8e11e0586e5909a6a5f9a8e488dbde c8f29783d2b444be024219040774b347299519f4 arovillard <arovillard@gmail.com> 1518294527 -0500	commit: update readme with markup
+c8f29783d2b444be024219040774b347299519f4 f628535cc25162361c74dafcb7f63ba7b895fb1b arovillard <arovillard@gmail.com> 1518294713 -0500	commit: 1.0.1
+f628535cc25162361c74dafcb7f63ba7b895fb1b c9acd996c9c17974345cd2c55a51214405945597 arovillard <arovillard@gmail.com> 1518294990 -0500	commit: update readme wit breakpoints
+c9acd996c9c17974345cd2c55a51214405945597 16e9a0c8d746d3356bad70757676aaed9ef60bec arovillard <arovillard@gmail.com> 1518295001 -0500	commit: 1.0.2
+16e9a0c8d746d3356bad70757676aaed9ef60bec d957392c113ae846536e4526b67a3572b5265d36 arovillard <arovillard@gmail.com> 1518295158 -0500	commit: add installation
+d957392c113ae846536e4526b67a3572b5265d36 13091e65bccd318a23d56c589825e907fdf9b498 arovillard <arovillard@gmail.com> 1518295168 -0500	commit: 1.0.3
+13091e65bccd318a23d56c589825e907fdf9b498 6f32d5bcd6b0c0ab59b44c5952a131c47004798b arovillard <arovillard@gmail.com> 1518295943 -0500	commit: add note for box sizing
+6f32d5bcd6b0c0ab59b44c5952a131c47004798b 68011a5a2805bbcb2c7193203d32d9d90765af3f arovillard <arovillard@gmail.com> 1518296071 -0500	commit: 1.0.4
+68011a5a2805bbcb2c7193203d32d9d90765af3f e0557c08ca8db3af2aea401a7e85242d08dde2b1 arovillard <arovillard@gmail.com> 1518296390 -0500	commit: update
+e0557c08ca8db3af2aea401a7e85242d08dde2b1 0ba0a187275190c2c109e7adbe1c309c5f6b69ed arovillard <arovillard@gmail.com> 1518296404 -0500	commit: 1.0.5
+0ba0a187275190c2c109e7adbe1c309c5f6b69ed 93a615f3eb35c4fc57ece86d53da00b9b14cd7c1 arovillard <arovillard@gmail.com> 1518297906 -0500	commit: downgrade SC
+93a615f3eb35c4fc57ece86d53da00b9b14cd7c1 6c2606fea0318a577babd25ef71c9b55e9f83e16 arovillard <arovillard@gmail.com> 1518298105 -0500	commit: error on package
+6c2606fea0318a577babd25ef71c9b55e9f83e16 62585fe0830ce2da5ddf38d69df2507812478a6b arovillard <arovillard@gmail.com> 1518298121 -0500	commit: 1.0.6
+62585fe0830ce2da5ddf38d69df2507812478a6b 3730d698e411c33cdd77b794dfcec7fe506fab4e arovillard <arovillard@gmail.com> 1518546291 -0500	commit: update readme and default font size
+3730d698e411c33cdd77b794dfcec7fe506fab4e df0e5cefe8f4efa69337a46932cf20c2f62fd7f3 arovillard <arovillard@gmail.com> 1518546365 -0500	commit: 1.0.7
+df0e5cefe8f4efa69337a46932cf20c2f62fd7f3 a0da300af7361adfc9d2254288b7129242b366ab arovillard <arovillard@gmail.com> 1518547412 -0500	commit: update import for mediaQuery
+a0da300af7361adfc9d2254288b7129242b366ab f09090efe9d7378149dfc24c0c0fe242cd92e410 arovillard <arovillard@gmail.com> 1518547426 -0500	commit: 1.0.8
+f09090efe9d7378149dfc24c0c0fe242cd92e410 124fed061b71fc278824d42c98df7292d7763139 arovillard <arovillard@gmail.com> 1518621658 -0500	commit: add option for no media
+124fed061b71fc278824d42c98df7292d7763139 057ae3ff7575833e4823994f606a2cb32888956c arovillard <arovillard@gmail.com> 1518621679 -0500	commit: 1.0.9
+057ae3ff7575833e4823994f606a2cb32888956c e25e5f72e78079a6f40ac88b8966812776c31172 arovillard <arovillard@gmail.com> 1518621682 -0500	commit: 1.0.10
+e25e5f72e78079a6f40ac88b8966812776c31172 de02bcf6473ca3409cb35e0dca863386e9259de2 arovillard <arovillard@gmail.com> 1518626940 -0500	pull: Fast-forward
+de02bcf6473ca3409cb35e0dca863386e9259de2 75db47ba3dae104de0cbe22f6caeeb67c9d7aeec arovillard <arovillard@gmail.com> 1518626997 -0500	commit: 1.0.11
+75db47ba3dae104de0cbe22f6caeeb67c9d7aeec aeea205daaeff5de4eda8a8d849a35bcb679dc9b arovillard <arovillard@gmail.com> 1518627057 -0500	commit: 1.0.12
+aeea205daaeff5de4eda8a8d849a35bcb679dc9b eda90261aa09f250f67baeeaea74172c9f0a4472 arovillard <arovillard@gmail.com> 1518658259 -0500	pull: Fast-forward
+eda90261aa09f250f67baeeaea74172c9f0a4472 df432f622e532de944e8ddf4b848abeac7edabea arovillard <arovillard@gmail.com> 1518658335 -0500	commit: 1.0.13
+df432f622e532de944e8ddf4b848abeac7edabea aeea205daaeff5de4eda8a8d849a35bcb679dc9b arovillard <arovillard@gmail.com> 1518660556 -0500	reset: moving to aeea205daaeff5de4eda8a8d849a35bcb679dc9b
+aeea205daaeff5de4eda8a8d849a35bcb679dc9b 8dc6887a87d222925f2ed8ca13939aff01bef7cc arovillard <arovillard@gmail.com> 1518660565 -0500	commit: revert
+8dc6887a87d222925f2ed8ca13939aff01bef7cc aeea205daaeff5de4eda8a8d849a35bcb679dc9b arovillard <arovillard@gmail.com> 1518660642 -0500	reset: moving to aeea205daaeff5de4eda8a8d849a35bcb679dc9b
+aeea205daaeff5de4eda8a8d849a35bcb679dc9b 74b2ca7e7d4ea95a7d064d46490c3d2420dea334 arovillard <arovillard@gmail.com> 1518660685 -0500	commit: Revert
+74b2ca7e7d4ea95a7d064d46490c3d2420dea334 df432f622e532de944e8ddf4b848abeac7edabea arovillard <arovillard@gmail.com> 1518660788 -0500	reset: moving to origin/master
+df432f622e532de944e8ddf4b848abeac7edabea de73d8f5f5f05da380b9c5762d71b3438d8d79f5 arovillard <arovillard@gmail.com> 1518661116 -0500	commit: revert until new solution
+de73d8f5f5f05da380b9c5762d71b3438d8d79f5 81796319db759e0b29cf3987a04cb09405633f24 arovillard <arovillard@gmail.com> 1518661130 -0500	commit: 1.0.14
+81796319db759e0b29cf3987a04cb09405633f24 be3f044d29fbc1235d99d952f9ff140073dc44d4 arovillard <arovillard@gmail.com> 1518661280 -0500	commit: update readme
+be3f044d29fbc1235d99d952f9ff140073dc44d4 12ec2a1d29dabc616d4b27c488a4d31e1323dec9 arovillard <arovillard@gmail.com> 1518661292 -0500	commit: 1.0.15
+12ec2a1d29dabc616d4b27c488a4d31e1323dec9 21a3c8816612194647ac68e6d4a148cf28cb2665 arovillard <arovillard@gmail.com> 1518805707 -0500	pull: Fast-forward
+21a3c8816612194647ac68e6d4a148cf28cb2665 f9f0a01051d21039517d600c8d6d86af49a83a61 arovillard <arovillard@gmail.com> 1518805750 -0500	commit: 1.0.16
+f9f0a01051d21039517d600c8d6d86af49a83a61 4cc101ab7da70f3bdfaa6840f977bea6e7476364 arovillard <arovillard@gmail.com> 1518806050 -0500	pull: Merge made by the 'recursive' strategy.
+4cc101ab7da70f3bdfaa6840f977bea6e7476364 7abe531942763ee6acb65bd92d9e043c9509c996 arovillard <arovillard@gmail.com> 1518806055 -0500	commit: 1.0.17
+7abe531942763ee6acb65bd92d9e043c9509c996 60b2e3b392fb3aac6f81ba5d0ea2ca216abc4eab arovillard <arovillard@gmail.com> 1518811207 -0500	commit: allow for default gutter
+60b2e3b392fb3aac6f81ba5d0ea2ca216abc4eab 9608f0faa6ddc29ed639042628b2c4c78e011177 arovillard <arovillard@gmail.com> 1518811222 -0500	commit: 1.0.18
+9608f0faa6ddc29ed639042628b2c4c78e011177 47018b110bcb8b5fa41e6408960e5dab1d9b4a1b arovillard <arovillard@gmail.com> 1519431912 -0500	commit: check for breakpoint existance
+47018b110bcb8b5fa41e6408960e5dab1d9b4a1b 2aa3acdaa71860ef7dc8777d8bd6238c43bb41df arovillard <arovillard@gmail.com> 1519431945 -0500	pull: Merge made by the 'recursive' strategy.
+2aa3acdaa71860ef7dc8777d8bd6238c43bb41df 4825717ac3074a9eda93e31011ceeff289b2007c arovillard <arovillard@gmail.com> 1519432072 -0500	commit: 1.0.19
+4825717ac3074a9eda93e31011ceeff289b2007c 607d4c0fccf0f845c03bff8d2b0899bb2f20bd50 arovillard <arovillard@gmail.com> 1519690452 -0500	commit: v2
+607d4c0fccf0f845c03bff8d2b0899bb2f20bd50 d8a72f33012f8cdabb12318444f37dfef607c123 arovillard <arovillard@gmail.com> 1519690611 -0500	commit: 2.0.0
+d8a72f33012f8cdabb12318444f37dfef607c123 919eb32f959c0cc8afe04ebb311229711b23b728 arovillard <arovillard@gmail.com> 1519691494 -0500	commit: 2.0.1
+919eb32f959c0cc8afe04ebb311229711b23b728 ef4aaf0a09b388ec283a165d8e8495ed9de6bb4a arovillard <arovillard@gmail.com> 1519693585 -0500	commit: update package
+ef4aaf0a09b388ec283a165d8e8495ed9de6bb4a fe9db373cf757b52400e9555b8ee6f155f86b82f arovillard <arovillard@gmail.com> 1519693591 -0500	commit: 2.0.2
+fe9db373cf757b52400e9555b8ee6f155f86b82f 8556fc6947cd50df612fc3b95cdc18456d84b346 arovillard <arovillard@gmail.com> 1519693965 -0500	commit: update package
+8556fc6947cd50df612fc3b95cdc18456d84b346 81f95371477473424894b768f994f2d7c50c897a arovillard <arovillard@gmail.com> 1519694004 -0500	commit: 2.0.3
+81f95371477473424894b768f994f2d7c50c897a ba0266c5fc056c5ee3c5eed7bb3b64096b9a019f arovillard <arovillard@gmail.com> 1519694235 -0500	commit: update package
+ba0266c5fc056c5ee3c5eed7bb3b64096b9a019f 588237b122b9b36d1889b0d72ca6e48eb709b369 arovillard <arovillard@gmail.com> 1519694242 -0500	commit: 2.0.4
+588237b122b9b36d1889b0d72ca6e48eb709b369 788fbd15783a35d0c40f9a64aa7039e33c1bebc0 arovillard <arovillard@gmail.com> 1519695391 -0500	commit: update readme
+788fbd15783a35d0c40f9a64aa7039e33c1bebc0 d1949fd839e5234f4f9e51429dde81c8c02f3a24 arovillard <arovillard@gmail.com> 1519695397 -0500	commit: 2.0.5
+d1949fd839e5234f4f9e51429dde81c8c02f3a24 22951799d85eec993e67d8d71ada1db3381c11ab arovillard <arovillard@gmail.com> 1519696700 -0500	commit: update dependency
+22951799d85eec993e67d8d71ada1db3381c11ab 0cafad46a9a41c99198368cc9071e5bc602af7ca arovillard <arovillard@gmail.com> 1519696705 -0500	commit: 2.0.6

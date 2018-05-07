@@ -1,0 +1,25 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:arovillard/styled-responsive.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "transpileToEs5"]
+	remote = origin
+	merge = refs/heads/transpileToEs5
+[branch "provider"]
+	remote = origin
+	merge = refs/heads/provider
+[branch "previous"]
+	remote = origin
+	merge = refs/heads/previous
+[branch "mediaAsFunction"]
+	remote = origin
+	merge = refs/heads/mediaAsFunction
